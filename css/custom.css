@@ -1,0 +1,110 @@
+html{scroll-behavior:smooth}
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+.header{
+	width:100%;
+	height:auto;
+	margin-bottom:20px!important;
+	clip-path:polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+}
+
+
+.bg_image{
+	position:relative;
+	
+}
+
+.heading {
+	position:absolute;
+	top:35%;
+	left:20%;
+	transform:translate(-35%, -20%);
+}
+.inner_heading {
+	position:absolute;
+	top:50%;
+	left:20%;
+	transform:translate(-50%, -20%);
+	
+}
+.text_change{
+	font-family:algerian;
+	font-size:3.5rem;
+	color:#08e1e1;
+	
+}
+.text_change:before{
+	content:"";
+	animation:textchange 8s infinite linear;
+	
+}
+@keyframes textchange{
+	0%{content:"Awesome ";}
+	20%{content:"KUETIAN  ";}
+	40%{content:"ENGINEER ";}
+	60%{content:"ALL FAMILY ";}
+	80%{content:"THE BEST ";}
+	100%{content:"CREATIVE ";}
+}
+/* for carousel */
+.icon {
+    border-radius: 50%;
+    font-size: 40px;
+    background: #00BCD4;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.round_circle {
+	width:300px;
+	height:300px;
+	border-radius:50%;
+	
+	transition:0.5s all linear;
+}
+.heading-2 {
+	margin-bottom:50px!important;
+}
+ .heading-2 h1 {
+	font-size:1.5rem!important;
+}
+
+
+.hover_card:hover .chnage_color
+{
+	color:#08e1e1;
+}
+.hover_card{
+	transition:0.5s all linear;
+
+}
+
+.hover_card:hover{
+	transform:translateY(-30px);
+	
+}
+
+
+.footer_heading h1{
+	color:white;
+	font-family:courier;
+	font-size:2rem;
+}
+p.size {
+    font-size: 0.75rem!important;
+}
+
+
+
+
+
+
+
+
+
+
